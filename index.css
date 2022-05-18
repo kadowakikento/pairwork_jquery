@@ -1,0 +1,67 @@
+h1  {
+  color: red;
+  background-color: beige;
+}
+
+span{
+  margin-top: 20px;
+  
+
+}
+img{
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.input_form{
+  text-align: center;
+}
+th{
+  text-align: right;
+}
+
+textarea{
+  width: 95%;
+  height: 100px;
+}
+
+table{
+  border: solid;
+  /* border-right: 1px; */
+}
+
+.submit {
+  background-color: rgb(70, 106, 226);
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+  border: solid 2px;
+
+}
+
+.text :after {
+    content: "必須";
+    background: #c30d23;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 5px;
+}
+.form_button{
+  text-align: center;
+}
+
+.content{
+  text-align: center;
+}
+
+table{
+  margin: 0 auto;
+}
+
+ .gazou {
+  display: table-cell;
+  margin: 0 auto;
+  height: 500px;
+  width: 500px;
+}

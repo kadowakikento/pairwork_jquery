@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>お問い合わせ</title>
+</head>
+<body>
+  <header>
+    <h1 class="flash">問い合わせ</h1>
+  </header>
+  
+<div class="wraper">
+  <article class="content">
+    <div>
+      <p>
+        以下のフォームに必要事項をご記入の上、
+        <br>
+        「送信」をクリックしてください。全て必須項目です。
+
+      </p>
+    </div>
+    <form action="" style="text-align: center;">
+      <table class="input_form">
+        <tr>
+          <th>
+            <div class="text">
+              <p>日付</p>
+            </div>
+          </th>
+          <td><input type="text" id="datepicker"></td>
+        </tr>
+        <tr>
+          <th>
+            <div class="text">
+              <span>お名前</span><img src="./human.png" alt="">
+            </div>
+          </th>
+          <td><input type="text" class="name"></td>
+        </tr>
+        <tr>
+          <th>
+            <div class="text">
+              <span>連絡先</span><img src="./phon.jpg" alt="" align="middle" class="a">
+            </div>
+          </th>
+          <td><input type="text" class="email"></td>
+        </tr>
+        <tr>
+          <!-- <th>性別</th>
+          <td>
+            <input type="radio" name="sex">
+            <label for="">男</label>
+            <input type="radio" name="sex">
+            <label for="">女</label>
+          </td> -->
+        </tr>
+        <tr>
+          <th>
+            <div class="text">
+              <span>お問い合わせ内容</span><img src="./mail.jpg" alt="">
+            </div>            
+          </th>
+          <td><textarea cols="" rows="2"></textarea></td>
+        </tr>
+      </table>
+      <div class="form_button">
+          <a type="button"  class="submit">送 信</a>
+      </div>
+      <p class="confirm"></p>
+  </form>
+  </article>
+</div>  
+<div>
+  <p id="demo3"></p>
+</div>
+<!-- <img src="./hirameki_man.png" alt=""> -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="./index.js"></script>
+</body>
+</html>
